@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/SCSS/common.css" />
+    <link rel="stylesheet" href="scratchPadPanel.css" />
+
+    <script type="text/javascript" src="/JS/coherent.js"></script>
+    <script type="text/javascript" src="/JS/common.js"></script>
+    <script type="text/javascript" src="/JS/dataStorage.js"></script>
+    <script type="text/javascript" src="/JS/buttons.js"></script>
+    <script type="text/javascript" src="/JS/Services/ToolBarPanels.js"></script>
+    <script type="text/javascript" src="/Pages/VCockpit/Instruments/Shared/BaseInstrument.js"></script>
+
+    <link rel="import" href="/templates/NewPushButton/NewPushButton.html" />
+    <link rel="import" href="/templates/ToggleButton/toggleButton.html" />
+    <link rel="import" href="/templates/tabMenu/tabMenu.html" />
+    <link rel="import" href="/templates/ingameUi/ingameUi.html" />
+    <link rel="import" href="/templates/ingameUiHeader/ingameUiHeader.html" />
+    <link rel="import" href="/templates/NewListButton/NewListButton.html" />
+
+    <script type="text/javascript" src="/JS/debug.js"></script>
+    <script type="text/javascript" src="scratchPadPanel.js"></script>
+</head>
+
+<body class="border-box">
+    <ingamepanel-custom>
+        <ingame-ui id="scratchPadPanel" panel-id="PANEL_SCRATCHPAD_PANEL" title="" class="ingameUiFrame panelInvisible" content-fit="true" min-width="160" min-height="90">
+            <div id="scratchPadPanelWrap">
+		<section class="container">
+			<div id="toolbar">
+				<label>Color:</label>
+				<button id="blackC" class="color_selector"></button>
+				<button id="redC" class="color_selector"></button>
+				<button id="greenC" class="color_selector"></button>
+				<button id="blueC" class="color_selector"></button>
+				<button id="clear" class="selector">Clear</button>
+				<button id="overlay" class="selector">Overlay</button>
+				<button id="darkMode" class="selector">Dark Mode</button>
+			</div>
+		    	<div>
+		        	<canvas id="drawing-board"></canvas>
+		    	</div>
+		</section>
+            </div>
+            <section id="MainDisplay">
+                header
+            </section>
+            <section id="Footer">
+                footer
+            </section>
+        </ingame-ui>
+    </ingamepanel-custom>
+</body>
+</html>

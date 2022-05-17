@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SimBase.Document Type="InGamePanels" version="1,0">
+  <Filename>InGamePanel_scratchPadPanel.spb</Filename>
+  <InGamePanels.InGamePanelDefinition id="PANEL_SCRATCHPAD_PANEL" Name="Notepad" 
+    url="html_ui/ingamePanels/scratchPadPanel/scratchPadPanel.html" 
+    resizeDirections="Both" minWidth="33" minHeight="35" defaultWidth="36" 
+    defaultHeight="36" defaultTop="33" defaultRight="2" 
+    icon="ICON_TOOLBAR_SCRATCHPAD" buttonVisible="true">
+  </InGamePanels.InGamePanelDefinition>
+</SimBase.Document>
