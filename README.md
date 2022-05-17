@@ -5,6 +5,7 @@ Addon for Microsoft Flight Simulator 2020 to allow for a scratchpad where you ca
 - Multiple pen colors
 - Light and Dark mode
 - Erase feature
+- Works great in VR!!
 
 # Usage
 - Enable from the toolbar.   Look for the pencil icon.
