@@ -22,3 +22,4 @@ Addon for Microsoft Flight Simulator 2020 to allow for a scratchpad where you ca
 # Credits
 - Thanks to Diagonalization for their panel toolbar template.   It gave me a great starting point! - https://github.com/diagonalization-lab/msfs-panel-notepad
 - Also thanks to bymaximus for the original panel toolbar template - https://github.com/bymaximus/msfs2020-toolbar-window-template
+- Adam Nagy for the canvas tutorial - https://dev.to/javascriptacademy/create-a-drawing-app-using-javascript-and-canvas-2an1
